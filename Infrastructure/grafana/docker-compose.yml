@@ -23,7 +23,6 @@ services:
       - grafana_data:/var/lib/grafana
     networks:
       - monitoring
-      - production
       
 volumes:
   grafana_data:
